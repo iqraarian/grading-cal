@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Calculator</title>
+    <link rel="stylesheet" href="./4th grading cal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h1>RESULT</h1>
+            <div class="p-g-t">
+                <h2>TOTAL - <span class="total"></span></h2>
+                <h2>PERCENTAGE - <span class="per"></span></h2>
+                <h2>GRADE - <span class="grade"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="pg" placeholder="Enter marks in programming"/>
+                <input type="number" id="phy" placeholder="Enter marks in physics"/>
+                <input type="number" id="cal" placeholder="Enter marks in calculus"/>
+                <input type="number" id="eng" placeholder="Enter marks in English"/>
+                <input type="number" id="ds" placeholder="Enter marks in discrete"/>
+                <button onclick="show_result()">Calculate</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    <script src="./4 grading cal.js"></script>
+</body>
+</html>

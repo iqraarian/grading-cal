@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./pink-0gpxg8h0y89rw2en.jpg);
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+}
+.container{
+    background-color: darkcyan;
+    width: 900px;
+    height: 400px;
+    box-shadow: 0px 10px 10px 0px #000;
+    border-radius: 10px;
+}
+.left-box{
+    height: 400px;
+    width: 250px;
+    background-color: aquamarine;
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+}
+.left-box h1 {
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #0c2d35;
+}
+.p-g-t{
+    text-align: center;
+    display: grid;
+   place-content: center;
+   min-height: 30vh;
+}
+.p-g-t h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.content .right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30vw;
+    min-width: 70vh;
+    align-items: center;
+}
+.right-box input{
+    padding: 10px;
+    margin: 10px 0px;
+    height: 20px;
+    width: 300px;
+    border-radius: 30px;
+    font-size: 1rem;
+    outline: none;
+    border: 0;
+}
+.right-box button{
+    height: 40px;
+    width: 150px;
+    margin-top:  10px;
+    padding:  0px 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: aquamarine ;
+    color: #0c2d35;
+    font-size: medium;
+    font-weight: 900;
+}
+.result{
+    position: absolute;
+    bottom: 160px;
+    width: 250px;
+    height: 70px;
+    background-color:#0c2d35;   
+     border-radius: 0px 0px 0px 10px;
+}
+.result h2{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: cadetblue;
+    line-height: 50px;
+}
